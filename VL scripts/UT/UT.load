@@ -1,0 +1,2 @@
+Fdot 0.01 0 0 0 * 0 0 0 * stress * * * * 0 * * * 0 time 1  incs 10 freq 1
+Fdot 0.01 0 0 0 * 0 0 0 * stress * * * * 0 * * * 0 time 20 incs 90 freq 1 dropguessing

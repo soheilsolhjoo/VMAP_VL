@@ -1,0 +1,3 @@
+[all]
+(output) f              # deformation gradient tensor; synonyms: "defgrad"
+(output) p              # first Piola-Kichhoff stress tensor; synonyms: "firstpiola", "1stpiola"

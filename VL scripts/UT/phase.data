@@ -1,0 +1,31 @@
+[BCC_Ferrite]
+plasticity              phenopowerlaw
+elasticity              hooke
+lattice_structure       bcc
+Nslip                   12		# per family
+Ntwin                    0		# per family
+c11                     380.6e9
+c12                     220.2e9
+c44                     192.5e9
+gdot0_slip              0.001
+n_slip                  100
+tau0_slip               77e6		# per family
+tausat_slip             220e6		# per family
+gdot0_twin              0.001
+n_twin                  20
+tau0_twin               31.0e6		# per family
+s_pr                    0		# push-up factor for slip saturation due to twinning
+twin_b                  0
+twin_c                  0
+twin_d                  0
+twin_e                  0
+h0_slipslip             2500e6
+h0_sliptwin             0
+h0_twinslip             0
+h0_twintwin             0
+interaction_slipslip    1 1 1.4 1.4 1.4 1.4
+interaction_sliptwin    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+interaction_twinslip    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+interaction_twintwin    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+a_slip                  1.6
+atol_resistance         1
